@@ -1,3 +1,110 @@
-body{
-  
-}
+    /* text */
+
+    .name{
+    color: red;
+    }
+    .rgb{
+    color: rgb(100, 200, 50);
+    }
+    .hex{
+    color: #ffb6c1;
+    }
+    .hsl{
+    color: hsl(250, 40%, 70%);
+    }
+
+    /* background */
+
+    .image {
+        height: 400px;
+        background-image: url(TREASURE\ MOVE\ \(T5\).jpg);
+    }
+    .repeat {
+        height: 400px;
+        background-image: url(TREASURE\ MOVE\ \(T5\).jpg);
+        background-repeat: repeat-x;
+    }
+    .attachment {
+        height: 600px;
+        background-image: url(TREASURE\ MOVE\ \(T5\).jpg);
+        background-attachment: scroll;
+    }
+    .shorthand{
+        height: 400px;
+        background: url(TREASURE\ MOVE\ \(T5\).jpg) no-repeat;
+        color :#ffb6c1;
+    }
+
+    /* border */
+    .solid{
+        border: 2px solid red;
+    }
+    .dotted{
+        border: 2px dotted blue;
+    }
+    .double{
+        border: 4px double green;
+    }
+    .dashed{
+        border: 2px dashed yellow;
+    }
+
+    /* text */
+    .color{
+        color: blue;
+    }
+    .alignment{
+        background-color: aqua;
+        text-align: center;
+    }
+
+    /* text decoration */
+    .overline{
+        text-decoration: overline red;
+    }
+    .line-through{
+        text-decoration: line-through blue;
+    }
+    .underline{
+        text-decoration: underline green;
+    }
+    .none-underline{
+        text-decoration: none;
+    }
+
+    /* text transform */
+    .uppercase{
+        text-transform: uppercase;
+    }
+    .capitalize{
+        text-transform: capitalize;
+    }
+    .lowercase{
+        text-transform: lowercase;
+    }
+
+    /* text shadow */
+    .shadow{
+        background-color: aqua;
+        color: white;
+        text-shadow: 2px 2px 4px black;
+    }
+    /* button */
+    .button {
+        width: 70px;
+        height: 30px;
+        background-color: red;
+        border-radius: 12px;
+        cursor: pointer;
+    }
+    .button:hover {
+        background-color: blue;
+    }
+    .button:active {
+        background-color: green;
+    }
+    .button p {
+        color: white;
+        text-align: center;
+        padding-top: 5px;
+    }
